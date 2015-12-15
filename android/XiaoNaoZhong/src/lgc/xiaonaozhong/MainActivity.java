@@ -11,6 +11,10 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_tixing_manager);
+		for(int i=0;i<1000;i++)
+		{
+			i+=2;
+		}
 	}
 
 	@Override
